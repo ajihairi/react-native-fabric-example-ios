@@ -56,7 +56,7 @@ A Project  React Native library for Fabric, Crashlytics and Answers only For IOS
 
         end
 ```
-- the save the `Podfile`
+- then save the `Podfile`
 - `pod install`
 
 #### Run the app
@@ -64,7 +64,7 @@ A Project  React Native library for Fabric, Crashlytics and Answers only For IOS
 
 
 #### Note
- - the configuration using react-native-fabric is pretty trickey, you have to completed the instruction that [react-native-fabric]    (https://github.com/corymsmith/react-native-fabric) provide.
+ - the configuration using react-native-fabric is pretty trickey, make sure you've completed the instruction that [react-native-fabric]    (https://github.com/corymsmith/react-native-fabric) and fabric.io provide.
  - go to fabric.io to initiate your account.
  - if you have the issue that tells the library is undefine, try [this](https://github.com/corymsmith/react-native-fabric/issues/102#issuecomment-279296313)
 
