@@ -55,7 +55,7 @@ A Project  React Native library for Fabric, Crashlytics and Answers only For IOS
         #end
 
         end
-        ```
+```
 - the save the `Podfile`
 - `pod install`
 
