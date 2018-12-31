@@ -17,6 +17,10 @@ import { Crashlytics } from 'react-native-fabric';
 
 export default class App extends Component {
 
+  componentDidMount(){
+    Crashlytics.log('myView loaded');
+  }
+
   onPress() {
     // just a string
     // Crashlytics.crash();
@@ -62,6 +66,13 @@ callFunctionReturnFlushedQueue@[native code]
 apply@[native code]`,
     });
   }
+  handlePress(){
+    console.log('keepup madafaka');
+    // Crashlytics.crash();
+    Crashlytics.recordError ('IT BROKED SECOND!');
+    Crashlytics.log("This is log waaw")
+
+  }
 
   render() {
     return (
@@ -79,6 +90,9 @@ apply@[native code]`,
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        <TouchableOpacity onPress={this.handlePress}>
+          <Text>PressMe</Text>
+        </TouchableOpacity>
       </View>
     );
   }
