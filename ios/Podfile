@@ -12,6 +12,7 @@ target 'RNFabricExample' do
   # Pods for RNFabricExample
   # shared_pods
   # pod 'React'
+  pod 'Firebase/Core'
 	pod 'Fabric'
   pod 'Crashlytics'
   pod 'React', :subspecs => [

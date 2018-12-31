@@ -14,6 +14,7 @@
 #import <asl.h>
 //#import "RCTLog.h"
 #import <React/RCTLog.h>
+#import <Firebase.h>
 
 
 
@@ -25,7 +26,7 @@
   RCTSetLogThreshold(RCTLogLevelInfo);
   RCTSetLogFunction(CrashlyticsReactLogFunction);
   
-  
+  [FIRApp configure];
   NSURL *jsCodeLocation;
 
   #ifdef DEBUG
